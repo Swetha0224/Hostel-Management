@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Playfair+Display:ital@1&display=swap');
+*
+{
+margin: 0;
+padding: 0;
+
+}
+h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+body{
+
+    background-color: lavender;
+
+}
+
+.nav
+{
+    background-color: black;
+    height: 70px;
+   
+}
+.btn button
+{
+background-color: rgb(243, 123, 55);
+width:10px;
+height:10px;
+display:block;
+}
+#view1
+{
+    display:none;
+}
+.first
+{
+    display: flex;
+    /* column-gap: 100px; */
+    padding: 20px;
+
+    margin-top: 10px;
+}
+.para1 
+{
+    float: right;
+    padding:10px;
+    /* padding-left: 150px; */
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+
+}
+
+.second
+{
+    display: flex;
+    /* column-gap: 100px; */
+    padding: 30px;
+}
+.para2
+{
+    float: right;
+    padding:20px;
+ text-align: center;
+ font-family: 'Dancing Script', cursive;
+ font-family: 'Playfair Display', serif;
+ font-size: 12px;
+}
+
+.third
+{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    /* column-gap: 100px; */
+}
+.img2 img{
+    width: 500px;
+    height: 300px; 
+}
+.img3,.img1 img
+{
+    width: 500px;
+    height: 300px;
+}
+.para3
+{
+    float: right;
+    padding:10px;
+    text-align: center;
+ font-family: 'Dancing Script', cursive;
+ font-family: 'Playfair Display', serif;
+ font-size: 12px;
+}
